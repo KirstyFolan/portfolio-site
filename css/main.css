@@ -142,7 +142,7 @@ h3,
 h4 {
   font-family: 'Alata', sans-serif;
   font-size: 1.5rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
 
  
 }
@@ -203,7 +203,7 @@ font-family: 'Nunito Sans', sans-serif;
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
-    width: 60%;
+    width: 100%;
   }
   
   header nav ul {
@@ -271,7 +271,7 @@ body {
 
 header {
  
-	margin: 0 auto;
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -284,8 +284,9 @@ header {
 header h1 {
   color: #EC91C4;
   font-family: 'Alata', sans-serif;
-  font-size: 3em;
-  padding: 0.5rem;
+  font-size: 3.5rem;
+  
+  text-align: center;
 
   
   
@@ -293,23 +294,34 @@ header h1 {
 nav {
 
   display: flex;
-  align-items: space-evenly;
-	justify-content: space-evenly;
+  align-items: center;
+	justify-content: center;
 	flex-flow: row wrap; 
 	width: 100%;
   
 
 }
+
+nav ul {
+
+  text-align: center;
+}
 nav ul li {
   width: 100%;
+  text-align: center;
  
 }
 nav ul li a {
-  color: #828282;
+  color: #351D77;
   font-size: 1em;
   padding: 1rem;
   text-decoration: none;
   text-transform: uppercase;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  color: #9d9bc2;
 }
 
 nav button {
@@ -320,34 +332,39 @@ nav button {
   padding-left: 0px
 }
 
-header h2 {
+header h3 {
   clear: both;
   color: #9b9b9b;
   font-family: 'Alata', sans-serif;
-  font-size: 2.5em;
-  line-height: 1.5em;
   padding: 0.5rem;
-  width: 100%;
+  width: 70%;
+
 }
 
 /***** ABOUT *****/
 #about .about-wrapper {
-  padding: 80px 0;
+  display: block;
+  width: 100%;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 #about h2 {
   font-family: 'Alata', sans-serif;
   font-size: 3em;
-  padding-left: 0.5rem;
-  width: 90%;
+  text-align: center;
   color: #351D77;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
 }
 
 #about h3 {
   font-family: 'Alata', sans-serif;
-  font-size: 1em;
-  padding-left: 0.5rem;
-  width: 90%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
   color: #9b9b9b;
 
 }
@@ -356,51 +373,57 @@ header h2 {
   color: #9b9b9b;
   font-size: 1em;
   line-height: 1.5em;
-  padding-left: 0.5rem;
-  
-  width: 90%;
+  text-align: center;
+  padding-bottom: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
 
 }
 
 #about .image {
-  width: 50%;
+  width: 30%;
+  margin-left: 35%;
+  
 }
 
 /***** SKILLS *****/
 
 .skills-wrapper {
+  display: block;
   width: 100%;
-  display: flex;
-  align-items: flex-start;
-	justify-content: flex-start;
-	flex-flow: row wrap; 
+  
 }
 #skills {
   background-color: #EEE4F0;
-  padding: 0.5rem;
+  padding-top: 60px;
   width: 100%;
+  text-align: center;
+  padding-bottom: 60px;
+  
 }
 
 #skills .skill {
-  width: 25%;
-  margin: 10px;
+  
+  padding: 15px 0;
+  margin: 20px 0;
   text-transform: uppercase;
   background: #EC91C4;
-  text-align: left;
+  border-radius: 10px;
+  
 }
 
-#skills .full-width {
-  padding: 115px 0;
-}
 
 
 #skills h3 {
   width: 100%;
   color: #351D77;
+  text-align: center;
 }
 
 #skills h2 {
   color: #351D77;
+  text-align: center;
 }
 
 #skills p {
@@ -412,19 +435,114 @@ font-family: 'Nunito Sans', sans-serif;
 }
 
 #skills .skills {
-  width: 30%;
+  width: 100%;
+  padding: 15px 0;
+    margin: 20px 0;
+}
+
+/***** PROJECTS ******/
+
+#projects {
+  
+    width: 100%;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color: #e7ecf3;
+    
+
+
+}
+
+.my-projects {
+  display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    width: 100%;
+    padding-top: 10px;
+  
+
+}
+
+#projects h2 {
+  color: #351D77;
+  text-align: center;
+  
+}
+
+#projects h3 {
+  color: #351D77;
+  padding: 1rem;
+  text-align: center;
+  
+}
+
+#projects p {
+  font-family: 'Nunito Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #9b9b9b;
+    text-align: center;
+  
+    
+    
+  }
+
+#projects .project-image {
+  filter: drop-shadow(1px 2px 6px lightgrey);
+  width: 100%;
+  
+}
+
+.single-project {
+  width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    padding-bottom: 40px;
+
+}
+
+.project-description {
+  padding-top: 20px;
+  margin: 0 0 30px 0;
+
+}
+
+#projects button {
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #f5c161;
+  color: #351D77;
+  border: none;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+#projects a {
+  color: #351D77
+}
+
+#projects a:hover {
+  color: #9d9bc2;
 }
 
 /****** CONTACT ******/
 
 #contact {
   background-color: #e8f0e4;
-  padding: 115px 0;
+  padding: 50px 0;
+  width: 100%;
+  padding-top: 60px;
+  padding-top: 60px;
 
 }
-#contact .full-width {
-  padding: 0.5rem 0;
+#contact .contact-wrapper {
+  width: 100%;
 }
+
 #contact img#contact-img {
   display: none;
 }
@@ -435,14 +553,14 @@ font-family: 'Nunito Sans', sans-serif;
   font-size: 3rem;
   line-height: 1.4rem;
   color: #351D77;
-  padding: 0.5rem;
+  text-align: center;
 }
 #contact #email-header {
-  font-size: 2rem;
-  line-height: 2.4rem;
+  
   font-weight: 400;
   padding: 0.5rem;
   color: #9b9b9b;
+  text-align: center;
 }
 #contact #socialmedia-header {
   font-size: 1rem;
@@ -457,8 +575,18 @@ font-family: 'Nunito Sans', sans-serif;
   text-decoration: none;
   padding: 0.5rem;
 }
+
+#contact p {
+  text-align: center;
+}
+
+#contact a:hover {
+  color: #f4becd;
+
+}
 #contact ul {
   list-style: none;
+  text-align: center;
 }
 #contact ul li {
   display: inline-block;
@@ -579,25 +707,15 @@ font-family: 'Nunito Sans', sans-serif;
       /* ABOUT */
 
       .about-wrapper {
+        display: block;
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: auto;
+        
         
         
 
       }
 
-      .description {
-        width: 55%;
-     
-      }
-
-      #about .image {
-        width: 20%;
-        
-      }
+      
 
       #about h2 {
         padding-left: auto;
@@ -623,13 +741,46 @@ font-family: 'Nunito Sans', sans-serif;
         
       }
 
+      .skills-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        flex-flow: row wrap;
+        text-transform: uppercase;
+      }
+
+      .skill {
+        width: 30%;
+      }
+
+      /* PROJECTS */
+
+      #projects {
+        width: 100%;
+      }
+
+      .my-projects {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 100%;
+        flex-flow: row wrap;
+      
+       
+      
+      }
+
+      .single-project {
+        width: 40%;
+      }
+
       
 
       /* CONTACT */
 
 
       .contact-wrapper {
-        width: 75%;
+        width: 100%;
         
       }
 
@@ -658,12 +809,19 @@ font-family: 'Nunito Sans', sans-serif;
   
     @media only screen and (min-width:1200px) {
       /*Desktop styles here*/
+
     
       .content-wrapper {
         max-width: 960px;
       }
     
       /* HEADER */
+
+      header {
+        position: fixed;
+        overflow: hidden;
+        z-index: 1;
+      }
 
       .header-wrapper {
         display: flex;
@@ -681,39 +839,46 @@ font-family: 'Nunito Sans', sans-serif;
 
       /* ABOUT */
 
-      .about-wrapper {
-        width: 100%;
+      #about .about-wrapper {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
-        padding: auto;
+        width: 100%;
+        flex-flow: row;
+        
         
         
 
       }
 
-      .description {
-        width: 55%;
+      #about {
+        padding-top: 170px;
+      }
+
+    
+
+      #about .description {
+        width: 60%;
+        margin: 0;
      
+      }
+
+      #about h2 {
+        text-align: left;
+      }
+
+      #about h3 {
+        text-align: left;
+      }
+
+      #about p {
+        text-align: left;
       }
 
       #about .image {
         width: 20%;
+        margin: 0;
         
-      }
-
-      #about h2 {
-        padding-left: auto;
-      }
-      
-      #about h3 {
-        padding-left: auto;
-      
-      }
-      
-      #about p {
-        padding-left: auto;
-      
       }
 
 
@@ -725,6 +890,13 @@ font-family: 'Nunito Sans', sans-serif;
         padding-bottom: 80px;
         
       }
+
+      /* PROJECTS */
+      .single-project {
+        width: 30%;
+      }
+
+      
 
       
 
