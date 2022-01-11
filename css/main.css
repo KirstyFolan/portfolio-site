@@ -265,7 +265,7 @@ header {
 
 
 header h1 {
-  color: #EC91C4;
+  color: #be4088;
   font-family: 'Alata', sans-serif;
   font-size: 3.5rem;
   
@@ -309,7 +309,7 @@ nav ul li a:hover {
   color: #9d9bc2;
 }
 
-nav button {
+nav ul li .nav-contact {
   border-radius: 12px;
   background-color: #f5c161;
   border: none;
@@ -350,12 +350,12 @@ header h3 {
   margin-left: 10%;
   margin-right: 10%;
   width: 80%;
-  color: #9b9b9b;
+  color: #575656;
 
 }
 
 #about p {
-  color: #9b9b9b;
+  color: #575656;
   font-size: 1em;
   line-height: 1.5em;
   text-align: center;
@@ -466,7 +466,7 @@ font-family: 'Nunito Sans', sans-serif;
   font-family: 'Nunito Sans', sans-serif;
     font-size: 1em;
     line-height: 1.5em;
-    color: #9b9b9b;
+    color: #575656;
     text-align: center;
   
     
@@ -496,7 +496,7 @@ font-family: 'Nunito Sans', sans-serif;
 
 }
 
-#projects button {
+#projects .live-page-link {
   margin-top: 20px;
   border-radius: 10px;
   background-color: #f5c161;
@@ -511,7 +511,7 @@ font-family: 'Nunito Sans', sans-serif;
 }
 
 #projects a:hover {
-  color: #9d9bc2;
+  color: #575656;
 }
 
 /****** CONTACT ******/
@@ -544,7 +544,7 @@ font-family: 'Nunito Sans', sans-serif;
   
   font-weight: 400;
   padding: 0.5rem;
-  color: #9b9b9b;
+  color: #575656;
   text-align: center;
 }
 #contact #socialmedia-header {
@@ -554,7 +554,7 @@ font-family: 'Nunito Sans', sans-serif;
   padding: 0.5rem;
 }
 #contact a {
-  color: #ec91c4;
+  color: #be4088;
   font-size: 28px;
   font-weight: bold;
   text-decoration: none;
@@ -566,7 +566,7 @@ font-family: 'Nunito Sans', sans-serif;
 }
 
 #contact a:hover {
-  color: #f4becd;
+  color: #be4088;
 
 }
 #contact ul {
