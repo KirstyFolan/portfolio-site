@@ -288,6 +288,7 @@ nav {
 nav ul {
 
   text-align: center;
+  padding-inline-start: 0px;
 }
 nav ul li {
   width: 100%;
@@ -566,7 +567,7 @@ font-family: 'Nunito Sans', sans-serif;
 }
 
 #contact a:hover {
-  color: #be4088;
+  color: #d375aa;
 
 }
 #contact ul {
